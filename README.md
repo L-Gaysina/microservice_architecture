@@ -70,7 +70,7 @@ MICROSERVICE_ARCHITECTURE/
 * Свободный порт 5672 (RabbitMQ)
 * Свободный порт 15672 (RabbitMQ Management)
 
-### Установка и запуск
+## Установка и запуск
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/L-Gaysina/microservice_architecture
