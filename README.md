@@ -71,14 +71,18 @@ MICROSERVICE_ARCHITECTURE/
 * Свободный порт 15672 (RabbitMQ Management)
 
 ## Установка и запуск
-1. Клонируйте репозиторий:
+1.  Установка RabbitMQ.
+```bash
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+```
+2. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/L-Gaysina/microservice_architecture
 ```
 ```bash
 cd microservice_architecture  
 ```
-2. Запустите систему с помощью Docker Compose:
+3. Запустите систему с помощью Docker Compose:
 
 ```bash
 docker-compose up --build
